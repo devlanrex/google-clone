@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img src="google.png" alt="Google Logo" />
+
+    <form>
+      <div class="input-container">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+          width="16px"
+          height="16px"
+          fill="#ccc"
+        >
+          <path
+            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+          />
+        </svg>
+        <input type="search" />
+        <!-- <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 384 512"
+          width="16"
+          height="16"
+          class="microphone"
+        >
+          <path
+            d="M192 0C139 0 96 43 96 96V256c0 53 43 96 96 96s96-43 96-96V96c0-53-43-96-96-96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 89.1 66.2 162.7 152 174.4V464H120c-13.3 0-24 10.7-24 24s10.7 24 24 24h72 72c13.3 0 24-10.7 24-24s-10.7-24-24-24H216V430.4c85.8-11.7 152-85.3 152-174.4V216c0-13.3-10.7-24-24-24s-24 10.7-24 24v40c0 70.7-57.3 128-128 128s-128-57.3-128-128V216z"
+          />
+        </svg> -->
+
+        <svg
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          class="microphone"
+        >
+          <path
+            fill="#4285f4"
+            d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"
+          ></path>
+          <path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path>
+          <path
+            fill="#fbbc05"
+            d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"
+          ></path>
+          <path
+            fill="#ea4335"
+            d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"
+          ></path>
+        </svg>
+
+        <!-- <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+          width="16"
+          height="16"
+          class=""
+        >
+          <path
+            d="M149.1 64.8L138.7 96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H373.3L362.9 64.8C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 192a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"
+          />
+        </svg> -->
+
+        <svg
+          viewBox="0 0 192 192"
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="18"
+        >
+          <rect fill="none" height="192" width="192"></rect>
+          <g>
+            <circle fill="#34a853" cx="144.07" cy="144" r="16"></circle>
+            <circle fill="#4285f4" cx="96.07" cy="104" r="24"></circle>
+            <path
+              fill="#ea4335"
+              d="M24,135.2c0,18.11,14.69,32.8,32.8,32.8H96v-16l-40.1-0.1c-8.8,0-15.9-8.19-15.9-17.9v-18H24V135.2z"
+            ></path>
+            <path
+              fill="#fbbc05"
+              d="M168,72.8c0-18.11-14.69-32.8-32.8-32.8H116l20,16c8.8,0,16,8.29,16,18v30h16V72.8z"
+            ></path>
+            <path
+              fill="#4285f4"
+              d="M112,24l-32,0L68,40H56.8C38.69,40,24,54.69,24,72.8V92h16V74c0-9.71,7.2-18,16-18h80L112,24z"
+            ></path>
+          </g>
+        </svg>
+      </div>
+    </form>
+
+    <div class="btn">
+      <button>Google Search</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
+
+    <div class="languages">
+      <p>Google offered in:</p>
+      <div class="language-links">
+        <a href="#" class="link">Hausa</a>
+        <a href="#" class="link">Igbo</a>
+        <a href="#" class="link">Èdè Yorùbá</a>
+        <a href="#" class="link">Pidgin</a>
+      </div>
+    </div>
+  </body>
+</html>
